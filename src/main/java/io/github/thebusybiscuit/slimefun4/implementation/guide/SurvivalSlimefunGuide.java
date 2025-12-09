@@ -70,13 +70,13 @@ public class SurvivalSlimefunGuide implements SlimefunGuideImplementation {
     private final ItemStack item;
 
     public SurvivalSlimefunGuide() {
-        item = new SlimefunGuideItem(this, "&aSlimefun 指南 &7(箱子界面)");
+        item = new SlimefunGuideItem(this, "&aPrzewodnik Slimefun &7(Interfejs)");
     }
 
     // fallback
     @Deprecated
     public SurvivalSlimefunGuide(boolean v1, boolean v2) {
-        item = new SlimefunGuideItem(this, "&aSlimefun 指南 &7(箱子界面)");
+        item = new SlimefunGuideItem(this, "&aPrzewodnik Slimefun &7(Interfejs)");
     }
 
     @Override
